@@ -46,7 +46,7 @@ header {
     padding: 5px;
 }
 
-.nav-left a:hover{
+.nav-left a:hover {
     color: var(--Selective_yellow);
     font-size: 20px;
 }

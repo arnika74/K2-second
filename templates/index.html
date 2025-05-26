@@ -21,7 +21,7 @@
             {% if 'user' in session %}
             <img src="../static/images/image.png" alt="profile-menu" id="profile-icon">
             <div class="dropdown-content" id="dropdown-menu">
-                <a href="#">Tips</a>
+                <a href="{{ url_for('tips') }}" target="_blank">Tips</a>
                 <a href="#">Change Password</a>
                 <a href="{{ url_for('logout') }}">Log Out</a>
             </div>

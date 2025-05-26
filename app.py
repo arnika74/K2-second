@@ -466,5 +466,11 @@ def report():
 
     return render_template("report.html")
 
+
+# Route for Tips Page
+@app.route('/tips')
+def tips():
+    return render_template('tips.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
